@@ -5,7 +5,7 @@ document.getElementById('booking-form').addEventListener('submit', function(even
     var result = document.getElementById('result');
     if (date && time) {
         result.innerHTML = `You have reserved ${date} ${time} for the event.`;
-        alert("Reserving successful."); // 
+        alert("Booking successful."); // 
     } else {
         result.innerHTML = "Please fill in all fields.";
         alert("Please fill in all fields."); //
